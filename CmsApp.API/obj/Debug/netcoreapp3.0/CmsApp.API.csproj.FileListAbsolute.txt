@@ -86,3 +86,11 @@ D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\obj\Debug\netcoreap
 D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\obj\Debug\netcoreapp3.0\staticwebassets\CmsApp.API.StaticWebAssets.xml
 D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\obj\Debug\netcoreapp3.0\CmsApp.API.dll
 D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\obj\Debug\netcoreapp3.0\CmsApp.API.pdb
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+D:\ศูนย์นวัตกรรม\CmsApp\CmsApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CmsApp.API.Data;    //  Import data
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CmsApp.API.Controllers
 {
-    //http:locahosL500/api/values
+    [Authorize]
     [Route("api/[controller]")]
+    [ApiController]
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
@@ -21,19 +24,22 @@ namespace CmsApp.API.Controllers
 
         }
 
-        // GET: api/value
+         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
-        public IActionResult Getvalues()
+        public async Task<IActionResult> GetValues()
         {
-            var values = _context.Values.ToList();
+            var values = await _context.Values.ToListAsync();
+
             return Ok(values);
         }
-
-        // GET api/<values>/5
+  // GET api/values/5
+        [AllowAnonymous]
         [HttpGet("{id}")]
-        public IActionResult Getvalue(int id)
+        public async Task<IActionResult> GetValue(int id)
         {
-            var value = _context.Values.FirstOrDefault(x => x.Id == id);
+            var value = await _context.Values.FirstOrDefaultAsync(x => x.Id == id);
+
             return Ok(value);
         }
 
