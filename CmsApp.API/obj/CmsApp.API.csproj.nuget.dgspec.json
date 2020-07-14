@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ศูนย์นวัตกรรม\\CmsApp\\CmsApp.API\\CmsApp.API.csproj": {}
+    "D:\\CmsApp\\CMS-APP\\CmsApp.API\\CmsApp.API.csproj": {}
   },
   "projects": {
-    "D:\\ศูนย์นวัตกรรม\\CmsApp\\CmsApp.API\\CmsApp.API.csproj": {
+    "D:\\CmsApp\\CMS-APP\\CmsApp.API\\CmsApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ศูนย์นวัตกรรม\\CmsApp\\CmsApp.API\\CmsApp.API.csproj",
+        "projectUniqueName": "D:\\CmsApp\\CMS-APP\\CmsApp.API\\CmsApp.API.csproj",
         "projectName": "CmsApp.API",
-        "projectPath": "D:\\ศูนย์นวัตกรรม\\CmsApp\\CmsApp.API\\CmsApp.API.csproj",
-        "packagesPath": "C:\\Users\\zico\\.nuget\\packages\\",
-        "outputPath": "D:\\ศูนย์นวัตกรรม\\CmsApp\\CmsApp.API\\obj\\",
+        "projectPath": "D:\\CmsApp\\CMS-APP\\CmsApp.API\\CmsApp.API.csproj",
+        "packagesPath": "C:\\Users\\MDT\\.nuget\\packages\\",
+        "outputPath": "D:\\CmsApp\\CMS-APP\\CmsApp.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

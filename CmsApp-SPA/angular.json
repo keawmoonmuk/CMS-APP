@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CmsApp-SPA"
+    }
+  },
+  "defaultProject": "CmsApp-SPA",
+  "cli": {
+    "analytics": false
+  }
 }
