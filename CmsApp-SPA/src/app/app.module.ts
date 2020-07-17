@@ -20,8 +20,9 @@ import { ListsComponent } from "./lists/lists.component"; // component list
 import { MessagesComponent } from "./messages/messages.component"; // component message
 import { appRoutes } from "./routes"; // import routes in file routes.ts
 import { PaymentsComponent } from "./payments/payments.component"; // component payments
-import { MedicalrecordComponent } from "./medicalrecord/medicalrecord.component"; // component medical record
-
+import { MedicalrecordComponent } from "./medicalrecord/medicalrecord.component"; //component medical record
+import { PriceListComponent } from "./price-list/price-list.component"; // component price list
+import { SettingsComponent } from "./settings/settings.component"; //  component settings
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,8 @@ import { MedicalrecordComponent } from "./medicalrecord/medicalrecord.component"
     MessagesComponent,
     PaymentsComponent,
     MedicalrecordComponent,
+    PriceListComponent,
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,
